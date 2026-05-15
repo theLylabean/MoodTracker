@@ -7,13 +7,21 @@ const MoodInput = ({addMood}) => {
     return (
         <div>
             <button onClick={() => handleMoodClick({
+                name: 'Silly',
+                emoji: '😋',
+                color:''
+            })}>
+                Silly
+            </button>
+            &nbsp;
+            <button onClick={() => handleMoodClick({
                 name: 'Happy',
-                emojji: '☺️',
+                emoji: '☺️',
                 color:''
             })}>
                 Happy
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Sad',
                 emoji: '🥺',
@@ -21,7 +29,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Sad
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Mad',
                 emoji: '🤬',
@@ -29,7 +37,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Mad/Furious
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Embarrassed',
                 emoji: '🫪',
@@ -37,7 +45,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Embarrassed
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Anxious',
                 emoji: '😰',
@@ -45,7 +53,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Anxious
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Tired',
                 emoji: '🫩',
@@ -53,7 +61,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Tired/Sleepy
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Detached',
                 emoji: '🫥',
@@ -61,7 +69,7 @@ const MoodInput = ({addMood}) => {
             })}>
                 Detached
             </button>
-            &nbsp
+            &nbsp;
             <button onClick={() => handleMoodClick({
                 name: 'Relieved',
                 emoji: '😮‍💨',

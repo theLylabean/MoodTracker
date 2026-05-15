@@ -7,7 +7,7 @@ const MoodList = ({ moodHistory }) =>{
             <div>
                 {moodHistory && moodHistory.length > 0 ? (moodHistory.map((mood) => (
                     <div key={mood.id}>
-                        {mood.name}
+                        {mood.name} &nbsp;
                         {mood.emoji}
                     </div>
                 ))
